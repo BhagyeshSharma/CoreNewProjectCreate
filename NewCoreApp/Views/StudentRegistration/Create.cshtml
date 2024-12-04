@@ -1,0 +1,132 @@
+﻿@model Entity.ViewModal.InsertDataModel
+
+<div>
+    <!-- Single entry fields -->
+    <input type="hidden" asp-for="StudentId" />
+    <label asp-for="StudentRollNo">Student Roll No:</label>
+    <input asp-for="StudentRollNo" class="form-control" id="StudentRollNo" />
+
+    <label asp-for="StudentName">Student Name:</label>
+    <input asp-for="StudentName" class="form-control" id="StudentName" />
+
+    <label asp-for="StudentEmail">Student Email:</label>
+    <input asp-for="StudentEmail" class="form-control" id="StudentEmail" />
+
+    <label asp-for="StudentMobNo">Student Mobile No:</label>
+    <input asp-for="StudentMobNo" class="form-control" id="StudentMobNo" />
+    <button type="button" onclick="saveSingleEntry()">Save Single Entry</button>
+</div>
+
+<hr />
+
+<div>
+    <!-- Fields for multiple rows data -->
+    <label asp-for="SubjectId">Subject:</label>
+    <select asp-for="SubjectId" asp-items="@(new SelectList(ViewBag.subjectDropdown, "Value", "Text"))" id="ddlSubject" class="form-control">
+        <option value="">Select Subject</option>
+    </select>
+
+    <label asp-for="StdClass">Student Class:</label>
+    <input asp-for="StdClass" class="form-control" id="txtStdClass" />
+
+    <label asp-for="StdMarks">Student Marks:</label>
+    <input asp-for="StdMarks" class="form-control" id="txtStdMarks" />
+
+    <button type="button" onclick="addRow()">Add Row</button>
+    <button type="button" onclick="saveAllData()">Save All Data</button>
+
+    <!-- Table to display added rows -->
+    <table id="tblData" border="1" class="table">
+        <thead>
+            <tr>
+                <th>Subject</th>
+                <th>Student Class</th>
+                <th>Student Marks in (%)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Rows will be dynamically added here -->
+        </tbody>
+    </table>
+</div>
+
+@section Scripts {
+    <script>
+        const dataTable = []; // Array to store row data
+
+        function addRow() {
+            debugger
+            const subjectDropdown = document.getElementById("ddlSubject");
+
+            // Check if the dropdown exists
+            if (!subjectDropdown) {
+                console.error("Dropdown element with ID 'ddlSubject' was not found.");
+                return;
+            }
+
+            // Ensure there is a valid selection
+            const selectedOption = subjectDropdown.options[subjectDropdown.selectedIndex];
+
+            if (!selectedOption || !selectedOption.value) {
+                alert("Please select a valid subject.");
+                return;
+            }
+
+            const subjectId = selectedOption.value; // Get the selected value (SubjectId)
+            const subjectName = selectedOption.text; // Get the selected text (SubjectName)
+            const studentClass = document.getElementById("txtStdClass").value;
+            const studentMarks = document.getElementById("txtStdMarks").value;
+            const rowData = {
+                SubjectId: parseInt(subjectId, 10),
+                SubjectName: subjectName,
+                StudentClass: studentClass,
+                StudentMarks: parseFloat(studentMarks)
+            };
+            dataTable.push(rowData); // Add row data to dataTable
+            // Dynamically update the table
+            const tableBody = document.getElementById("tblData").getElementsByTagName("tbody")[0];
+            const newRow = tableBody.insertRow(tableBody.rows.length);
+            newRow.innerHTML = `
+                                <td>${subjectId}</td>
+                                <td>${subjectName}</td>
+                                <td>${studentClass}</td>
+                                <td>${studentMarks}</td>
+                            `;
+        }
+
+
+        function saveAllData() {
+            debugger
+            const studentRollNo = document.getElementById("StudentRollNo").value;
+            const studentName = document.getElementById("StudentName").value;
+            const studentEmail = document.getElementById("StudentEmail").value;
+            const studentMobNo = document.getElementById("StudentMobNo").value;
+
+            const singleEntryData = {
+                StudentRollNo: studentRollNo,
+                StudentName: studentName,
+                StudentEmail: studentEmail,
+                StudentMobNo: studentMobNo
+            };
+
+            const studentdataviewmodel = {
+                SingleEntryData: singleEntryData,
+                DataTable: dataTable // This is the array holding the rows
+            };
+
+            // Send data to server
+            fetch('/StudentRegistration/SaveAllData', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(studentdataviewmodel)
+            })
+                .then(response => response.json())
+                .then(data => console.log(data))
+                .catch(error => console.error('Error:', error));
+        }
+
+
+    </script>
+}

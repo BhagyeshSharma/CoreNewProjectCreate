@@ -1,0 +1,38 @@
+﻿@model IEnumerable<Entity.ViewModal.UserFilegridViewModal>
+
+@{
+    ViewData["Title"] = "File Grid";
+}
+
+<h2>User Wise Location Details</h2>
+
+
+   
+    <table style="border-collapse: collapse; width: 100%; border: 1px solid black;">
+        <thead>
+            <tr>
+                <th style="border: 1px solid black;">S.No.</th>
+                <th style="border: 1px solid black;">Division Name</th>
+                <th style="border: 1px solid black;">District Name</th>
+                <th style="border: 1px solid black;">Block Name</th>
+                <th style="border: 1px solid black;">User Image</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var file in Model)
+            {
+                <tr>
+                    <td style="border: 1px solid black;">@file.Id</td>
+                    <td style="border: 1px solid black;">@file.DivisionName</td>
+                    <td style="border: 1px solid black;">@file.DistrictName</td>
+                    <td style="border: 1px solid black;">@file.BlockName</td>
+                    <td style="border: 1px solid black;">
+                        <!-- Use the FilePath for the image source -->
+                        <img src="@Url.Content(file.FileName)" alt="File Image" style="width:100px;height:auto;" />
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+

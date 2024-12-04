@@ -4,13 +4,79 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+	  <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Modal\DivisionMaster.cs" />
+    <Compile Include="Business\EmployeeRegBAL.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="Modal\EmployeeReg.cs" />
+    <Compile Include="Modal\State.cs" />
+    <Compile Include="Modal\StudentDetails.cs" />
+    <Compile Include="Modal\StudentEdu_Details.cs" />
+    <Compile Include="Modal\tblBlock.cs" />
+    <Compile Include="Modal\tblDistrict.cs" />
+    <Compile Include="Modal\tblDivision.cs" />
+    <Compile Include="Modal\TblExamSessions.cs" />
+    <Compile Include="Modal\TblQuestion.cs" />
+    <Compile Include="Modal\TblUserActivityLogs.cs" />
+    <Compile Include="Modal\Tbl_Attendance.cs" />
+    <Compile Include="Modal\Tbl_Books.cs" />
+    <Compile Include="Modal\Tbl_BookTransaction.cs" />
+    <Compile Include="Modal\Tbl_StudentVerification.cs" />
+    <Compile Include="Modal\tbl_Subject.cs" />
+    <Compile Include="Modal\Tbl_User.cs" />
+    <Compile Include="Modal\Trn_DivisonDistrictBlock.cs" />
+    <Compile Include="obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net8.0\Entity.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net8.0\Entity.GlobalUsings.g.cs" />
+    <Compile Include="ViewModal\AttendanceViewModel.cs" />
+    <Compile Include="ViewModal\BookTransactionViewModel.cs" />
+    <Compile Include="ViewModal\DashboardData.cs" />
+    <Compile Include="ViewModal\EmployeeRegistrationVM.cs" />
+    <Compile Include="ViewModal\ExamSessionViewModal.cs" />
+    <Compile Include="ViewModal\InsertDataModel.cs" />
+    <Compile Include="ViewModal\MainEntryViewModel.cs" />
+    <Compile Include="ViewModal\SingleEntryDataModel.cs" />
+    <Compile Include="ViewModal\StudentDataViewModel.cs" />
+    <Compile Include="ViewModal\SubEntryViewModel.cs" />
+    <Compile Include="ViewModal\SubjectClassMarksModel.cs" />
+    <Compile Include="ViewModal\UploadViewModel.cs" />
+    <Compile Include="ViewModal\UserAddressModel.cs" />
+    <Compile Include="ViewModal\UserContactModel.cs" />
+    <Compile Include="ViewModal\UserFilegridViewModal.cs" />
+    <Compile Include="ViewModal\UserFormModel.cs" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="bin\Debug\net8.0\Entity.deps.json" />
+    <Content Include="bin\Debug\net8.0\Entity.runtimeconfig.json" />
+    <Content Include="obj\Debug\net8.0\Entity.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Entity.csproj.nuget.dgspec.json" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net8.0\Entity.dll" />
+    <None Include="bin\Debug\net8.0\Entity.pdb" />
+    <None Include="Business\Business.csproj" />
+    <None Include="obj\Debug\net8.0\Entity.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net8.0\Entity.assets.cache" />
+    <None Include="obj\Debug\net8.0\Entity.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net8.0\Entity.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net8.0\Entity.dll" />
+    <None Include="obj\Debug\net8.0\Entity.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net8.0\Entity.genruntimeconfig.cache" />
+    <None Include="obj\Debug\net8.0\Entity.pdb" />
+    <None Include="obj\Debug\net8.0\refint\Entity.dll" />
+    <None Include="obj\Debug\net8.0\ref\Entity.dll" />
+    <None Include="obj\Entity.csproj.nuget.g.props" />
+    <None Include="obj\Entity.csproj.nuget.g.targets" />
+    <None Include="obj\project.nuget.cache" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.10">

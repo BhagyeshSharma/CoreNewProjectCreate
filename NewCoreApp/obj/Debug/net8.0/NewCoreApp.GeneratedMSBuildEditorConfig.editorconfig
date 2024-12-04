@@ -17,47 +17,91 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = NewCoreApp
 build_property.RootNamespace = NewCoreApp
-build_property.ProjectDir = D:\CoreNewProjectCreate\NewCoreApp\
+build_property.ProjectDir = C:\Users\welcome\Downloads\CoreNewProjectCreate\NewCoreApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\CoreNewProjectCreate\NewCoreApp
+build_property.MSBuildProjectDirectory = C:\Users\welcome\Downloads\CoreNewProjectCreate\NewCoreApp
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/CoreNewProjectCreate/NewCoreApp/Views/EmployeeRegistration/Create.cshtml]
+[C:/Users/welcome/Downloads/CoreNewProjectCreate/NewCoreApp/Views/Attendance/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kYW5jZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/welcome/Downloads/CoreNewProjectCreate/NewCoreApp/Views/Dashboard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/welcome/Downloads/CoreNewProjectCreate/NewCoreApp/Views/DivisionDistrictBlock/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGl2aXNpb25EaXN0cmljdEJsb2NrXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/welcome/Downloads/CoreNewProjectCreate/NewCoreApp/Views/DivisionDistrictBlock/FileGrid.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGl2aXNpb25EaXN0cmljdEJsb2NrXEZpbGVHcmlkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/welcome/Downloads/CoreNewProjectCreate/NewCoreApp/Views/EmployeeRegistration/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVSZWdpc3RyYXRpb25cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CoreNewProjectCreate/NewCoreApp/Views/EmployeeRegistration/EmployeeList.cshtml]
+[C:/Users/welcome/Downloads/CoreNewProjectCreate/NewCoreApp/Views/EmployeeRegistration/EmployeeList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVSZWdpc3RyYXRpb25cRW1wbG95ZWVMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CoreNewProjectCreate/NewCoreApp/Views/Home/Index.cshtml]
+[C:/Users/welcome/Downloads/CoreNewProjectCreate/NewCoreApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CoreNewProjectCreate/NewCoreApp/Views/Home/Privacy.cshtml]
+[C:/Users/welcome/Downloads/CoreNewProjectCreate/NewCoreApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CoreNewProjectCreate/NewCoreApp/Views/Shared/Error.cshtml]
+[C:/Users/welcome/Downloads/CoreNewProjectCreate/NewCoreApp/Views/LibraryBooks/Librarybooks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyeUJvb2tzXExpYnJhcnlib29rcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/welcome/Downloads/CoreNewProjectCreate/NewCoreApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CoreNewProjectCreate/NewCoreApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/welcome/Downloads/CoreNewProjectCreate/NewCoreApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CoreNewProjectCreate/NewCoreApp/Views/_ViewImports.cshtml]
+[C:/Users/welcome/Downloads/CoreNewProjectCreate/NewCoreApp/Views/StudentRegistration/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFJlZ2lzdHJhdGlvblxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/welcome/Downloads/CoreNewProjectCreate/NewCoreApp/Views/StudentVerfication/StudentVerification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFZlcmZpY2F0aW9uXFN0dWRlbnRWZXJpZmljYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/welcome/Downloads/CoreNewProjectCreate/NewCoreApp/Views/StudentVerfication/_VerifyPopup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFZlcmZpY2F0aW9uXF9WZXJpZnlQb3B1cC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/welcome/Downloads/CoreNewProjectCreate/NewCoreApp/Views/UserForm/AddressPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckZvcm1cQWRkcmVzc1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/welcome/Downloads/CoreNewProjectCreate/NewCoreApp/Views/UserForm/ContactPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckZvcm1cQ29udGFjdFBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/welcome/Downloads/CoreNewProjectCreate/NewCoreApp/Views/UserForm/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckZvcm1cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/welcome/Downloads/CoreNewProjectCreate/NewCoreApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CoreNewProjectCreate/NewCoreApp/Views/_ViewStart.cshtml]
+[C:/Users/welcome/Downloads/CoreNewProjectCreate/NewCoreApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CoreNewProjectCreate/NewCoreApp/Views/Shared/_Layout.cshtml]
+[C:/Users/welcome/Downloads/CoreNewProjectCreate/NewCoreApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-udyoevn98t

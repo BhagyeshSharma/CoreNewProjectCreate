@@ -1,8 +1,8 @@
-D:\CoreNewProjectCreate\NewCoreApp\obj\Release\net8.0\NewCoreApp.csproj.AssemblyReference.cache
-D:\CoreNewProjectCreate\NewCoreApp\obj\Release\net8.0\NewCoreApp.GeneratedMSBuildEditorConfig.editorconfig
-D:\CoreNewProjectCreate\NewCoreApp\obj\Release\net8.0\NewCoreApp.AssemblyInfoInputs.cache
-D:\CoreNewProjectCreate\NewCoreApp\obj\Release\net8.0\NewCoreApp.AssemblyInfo.cs
-D:\CoreNewProjectCreate\NewCoreApp\obj\Release\net8.0\NewCoreApp.csproj.CoreCompileInputs.cache
-D:\CoreNewProjectCreate\NewCoreApp\obj\Release\net8.0\NewCoreApp.MvcApplicationPartsAssemblyInfo.cache
-D:\CoreNewProjectCreate\NewCoreApp\obj\Release\net8.0\NewCoreApp.RazorAssemblyInfo.cache
-D:\CoreNewProjectCreate\NewCoreApp\obj\Release\net8.0\NewCoreApp.RazorAssemblyInfo.cs
+C:\Users\welcome\Downloads\CoreNewProjectCreate\NewCoreApp\obj\Release\net8.0\NewCoreApp.csproj.AssemblyReference.cache
+C:\Users\welcome\Downloads\CoreNewProjectCreate\NewCoreApp\obj\Release\net8.0\NewCoreApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\welcome\Downloads\CoreNewProjectCreate\NewCoreApp\obj\Release\net8.0\NewCoreApp.AssemblyInfoInputs.cache
+C:\Users\welcome\Downloads\CoreNewProjectCreate\NewCoreApp\obj\Release\net8.0\NewCoreApp.AssemblyInfo.cs
+C:\Users\welcome\Downloads\CoreNewProjectCreate\NewCoreApp\obj\Release\net8.0\NewCoreApp.csproj.CoreCompileInputs.cache
+C:\Users\welcome\Downloads\CoreNewProjectCreate\NewCoreApp\obj\Release\net8.0\NewCoreApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\welcome\Downloads\CoreNewProjectCreate\NewCoreApp\obj\Release\net8.0\NewCoreApp.RazorAssemblyInfo.cache
+C:\Users\welcome\Downloads\CoreNewProjectCreate\NewCoreApp\obj\Release\net8.0\NewCoreApp.RazorAssemblyInfo.cs

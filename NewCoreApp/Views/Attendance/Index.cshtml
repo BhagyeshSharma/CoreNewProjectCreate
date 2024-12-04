@@ -1,0 +1,71 @@
+﻿@model Entity.ViewModal.AttendanceViewModel
+
+@{
+    ViewData["Title"] = "Attendance";
+}
+
+<h2>Student Daily Attendance Entry</h2>
+<style>
+    .theaderbg{
+        background-color:antiquewhite;
+        color:black;
+    }
+</style>
+<!-- Date Selection -->
+<form method="get" asp-action="Index">
+    <label for="date">Select Date:</label>
+    <input type="date" id="date" name="date" value="@Model.SelectedDate.ToString("yyyy-MM-dd")" />
+    <button type="submit" class="btn btn-primary">Search</button>
+</form>
+
+<br />
+
+<!-- Success Message -->
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+<!-- Attendance Table -->
+<form method="post" asp-action="SaveAttendance">
+    <input type="hidden" name="SelectedDate" value="@Model.SelectedDate.ToString("yyyy-MM-dd")" />
+
+    <table class="table table-bordered">
+        <thead class="theaderbg">
+            <tr>
+                <th>Sr.No.</th>
+                <th>Student ID</th>
+                <th>Student Name</th>
+                <th>Present</th>
+                <th>Absent</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.Tbl_Attendance.Count; i++)
+            {
+                var attendance = Model.Tbl_Attendance[i];
+                <tr>
+                    <td>@(i + 1)</td>
+                    <td>
+                        @attendance.StudentId
+                        <input type="hidden" name="Tbl_Attendance[@i].StudentId" value="@attendance.StudentId" />
+                    </td>
+                    <td>
+                        @attendance.StudentName
+                        <input type="hidden" name="Tbl_Attendance[@i].StudentName" value="@attendance.StudentName" />
+                    </td>
+                    <td>
+                        <input type="radio" name="Tbl_Attendance[@i].IsPresent" value="true" @(attendance.IsPresent ? "checked" : "") /> Present
+                    </td>
+                    <td>
+                        <input type="radio" name="Tbl_Attendance[@i].IsPresent" value="false" @(!attendance.IsPresent ? "checked" : "") /> Absent
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <button type="submit" class="btn btn-success">Save Attendance</button>
+</form>

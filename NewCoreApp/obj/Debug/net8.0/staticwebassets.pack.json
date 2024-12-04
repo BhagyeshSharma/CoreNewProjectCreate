@@ -1,267 +1,327 @@
 {
   "Files": [
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\NewCoreApp.bundle.scp.css",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\NewCoreApp.bundle.scp.css",
       "PackagePath": "staticwebassets\\NewCoreApp.bundle.scp.css"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\EmployeeFileUpload\\BC Monthly Report drilldown 2.png",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\EmployeeFileUpload\\BC Monthly Report drilldown 2.png",
       "PackagePath": "staticwebassets\\EmployeeFileUpload\\BC Monthly Report drilldown 2.png"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\EmployeeFileUpload\\Screenshot 2023-10-05 150831.png",
+      "PackagePath": "staticwebassets\\EmployeeFileUpload\\Screenshot 2023-10-05 150831.png"
+    },
+    {
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\EmployeeFileUpload\\Screenshot 2024-09-02 215037.png",
+      "PackagePath": "staticwebassets\\EmployeeFileUpload\\Screenshot 2024-09-02 215037.png"
+    },
+    {
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\UploadUserFiles\\112.png",
+      "PackagePath": "staticwebassets\\UploadUserFiles\\112.png"
+    },
+    {
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\UploadUserFiles\\HED.jpg",
+      "PackagePath": "staticwebassets\\UploadUserFiles\\HED.jpg"
+    },
+    {
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\UploadUserFiles\\IWTXaj9d_400x400-removebg-preview.png",
+      "PackagePath": "staticwebassets\\UploadUserFiles\\IWTXaj9d_400x400-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\UploadUserFiles\\LANDING PAGE.png",
+      "PackagePath": "staticwebassets\\UploadUserFiles\\LANDING PAGE.png"
+    },
+    {
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\UploadUserFiles\\MPCDF Logo.jpg",
+      "PackagePath": "staticwebassets\\UploadUserFiles\\MPCDF Logo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\UploadUserFiles\\dummy-image.jpg",
+      "PackagePath": "staticwebassets\\UploadUserFiles\\dummy-image.jpg"
+    },
+    {
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\UploadUserFiles\\emp image.jpg",
+      "PackagePath": "staticwebassets\\UploadUserFiles\\emp image.jpg"
+    },
+    {
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\UploadUserFiles\\mohan yadav image.jpg",
+      "PackagePath": "staticwebassets\\UploadUserFiles\\mohan yadav image.jpg"
+    },
+    {
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\UploadUserFiles\\pm images.jpg",
+      "PackagePath": "staticwebassets\\UploadUserFiles\\pm images.jpg"
+    },
+    {
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\UploadUserFiles\\shivraj-chouhan.png",
+      "PackagePath": "staticwebassets\\UploadUserFiles\\shivraj-chouhan.png"
+    },
+    {
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\UploadUserFiles\\shivraj-chouhan1.png",
+      "PackagePath": "staticwebassets\\UploadUserFiles\\shivraj-chouhan1.png"
+    },
+    {
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\UploadUserFiles\\t5.jpg",
+      "PackagePath": "staticwebassets\\UploadUserFiles\\t5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\UploadedFiles\\mohan yadav image.jpg",
+      "PackagePath": "staticwebassets\\UploadedFiles\\mohan yadav image.jpg"
+    },
+    {
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

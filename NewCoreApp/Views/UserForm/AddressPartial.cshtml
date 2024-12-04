@@ -1,0 +1,16 @@
+﻿@model Entity.ViewModal.UserAddressModel
+
+<div class="row">
+    <div class="col-md-4">
+        <label for="Street" class="form-label">Street:</label>
+        <input type="text" id="Street" autocomplete="off" placeholder="Enter Street" name="UserAddressModel.Street" class="form-control" value="@Model.Street" />
+    </div>
+    <div class="col-md-4">
+        <label for="City" class="form-label">City:</label>
+        <input type="text" id="City" autocomplete="off" placeholder="Enter City" name="UserAddressModel.City" class="form-control" value="@Model.City" />
+    </div>
+    <div class="col-md-4">
+        <label for="ZipCode" class="form-label">ZipCode:</label>
+        <input type="text" id="ZipCode" autocomplete="off" placeholder="Enter ZipCode" name="UserAddressModel.ZipCode" class="form-control" value="@Model.ZipCode" />
+    </div>
+</div>

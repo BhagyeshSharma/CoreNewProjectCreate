@@ -10,7 +10,7 @@ namespace Entity.ViewModal
 {
     public class EmployeeRegistrationVM
     {
-        public int EmployeeId { get; set; }
+        public int EmployeeId  { get; set; }
         [Display(Name ="Employee Name")]
         public string EmployeeName { get; set; }
         [Display(Name = "Employee Father Name")]
@@ -20,7 +20,7 @@ namespace Entity.ViewModal
         [Display(Name = "State Name")]
         public string StateName { get; set; }
         [Display(Name ="Employee Document")]
-        public IFormFile FileUpload { get; set; }
-        public string varfile { get; set; }
+        public IFormFile ? FileUpload { get; set; }
+        public string ? varfile { get; set; }
     }
 }

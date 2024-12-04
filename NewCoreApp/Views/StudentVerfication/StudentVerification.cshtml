@@ -1,0 +1,102 @@
+﻿@model List<Entity.Modal.Tbl_StudentVerification>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Verification</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container mt-4">
+        <h1>Student Verification</h1>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Mobile No.</th>
+                    <th>Email</th>
+                    <th>Verified</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var student in Model)
+                {
+                    <tr>
+                        <td>@student.StdVerifcnID</td>
+                        <td>@student.StdVerifcnName</td>
+                        <td>@student.StdVerifcnMobileNo</td>
+                        <td>@student.StdVerifcnEmail</td>
+                       @*  <td>@(student.IsVerified ? "Yes" : "No")</td> *@
+                        <td>
+                            @if (student.IsVerified)
+                            {
+                                <span class="text-success">&#10004;</span> <!-- Green tick -->
+                            }
+                            else
+                            {
+                                <span class="text-danger">&#10005;</span> <!-- Red cross -->
+                            }
+                        </td>
+                        <td>
+                            <button class="btn btn-primary btn-sm load-popup-btn" data-id="@student.StdVerifcnID">
+                                Verify
+                            </button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="verifyModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Verify Student</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Placeholder where Partial View will be loaded -->
+                    <div id="verifyPartialViewContainer">
+                        <!-- Content from Partial View (_VerifyPopup) will be loaded here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   @*  <script>
+        // Event handler for the verify button
+        $(document).on('click', '.load-popup-btn', function () {
+            var studentId = $(this).data('id'); // Get student ID
+
+            // AJAX call to load Partial View
+            $.get('/StudentVerfication/Verify/' + studentId, function (data) {
+                $('#verifyPartialViewContainer').html(data); // Load Partial View content
+                $('#verifyModal').modal('show'); // Show modal
+            });
+        }); 
+    </script> *@
+    <script>
+        $(document).on('click', '.load-popup-btn', function () {
+            var studentId = $(this).data('id'); // Get student ID
+
+            // AJAX call to check verification status and load Partial View if not verified
+            $.get('/StudentVerfication/CheckVerification/' + studentId, function (response) {
+                if (response === "Verified") {
+                    // Show alert if student is already verified
+                    alert("Student is already verified.");
+                } else {
+                    // Load Partial View content into the modal
+                    $('#verifyPartialViewContainer').html(response);
+                    $('#verifyModal').modal('show'); // Show modal
+                }
+            });
+        });
+    </script>
+</body>
+</html>

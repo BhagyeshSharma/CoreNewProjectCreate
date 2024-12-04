@@ -1,108 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CoreNewProjectCreate\\InfraStucture\\InfraStucture.csproj": {}
+    "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\InfraStucture\\InfraStucture.csproj": {}
   },
   "projects": {
-    "D:\\CoreNewProjectCreate\\Business\\Business.csproj": {
+    "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\ClassDAL\\ClassDAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CoreNewProjectCreate\\Business\\Business.csproj",
-        "projectName": "Business",
-        "projectPath": "D:\\CoreNewProjectCreate\\Business\\Business.csproj",
-        "packagesPath": "C:\\Users\\welcome\\.nuget\\packages\\",
-        "outputPath": "D:\\CoreNewProjectCreate\\Business\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\welcome\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        }
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.10, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.10, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[8.0.10, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.10, )"
-            },
-            "System.Data.SqlClient": {
-              "target": "Package",
-              "version": "[4.8.6, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\CoreNewProjectCreate\\ClassDAL\\ClassDAL.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\CoreNewProjectCreate\\ClassDAL\\ClassDAL.csproj",
+        "projectUniqueName": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\ClassDAL\\ClassDAL.csproj",
         "projectName": "ClassDAL",
-        "projectPath": "D:\\CoreNewProjectCreate\\ClassDAL\\ClassDAL.csproj",
+        "projectPath": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\ClassDAL\\ClassDAL.csproj",
         "packagesPath": "C:\\Users\\welcome\\.nuget\\packages\\",
-        "outputPath": "D:\\CoreNewProjectCreate\\ClassDAL\\obj\\",
+        "outputPath": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\ClassDAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -124,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\CoreNewProjectCreate\\Data\\Data.csproj": {
-                "projectPath": "D:\\CoreNewProjectCreate\\Data\\Data.csproj"
+              "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\Data\\Data.csproj"
               }
             }
           }
@@ -170,14 +79,14 @@
         }
       }
     },
-    "D:\\CoreNewProjectCreate\\Data\\Data.csproj": {
+    "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CoreNewProjectCreate\\Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "D:\\CoreNewProjectCreate\\Data\\Data.csproj",
+        "projectPath": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\welcome\\.nuget\\packages\\",
-        "outputPath": "D:\\CoreNewProjectCreate\\Data\\obj\\",
+        "outputPath": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -199,11 +108,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\CoreNewProjectCreate\\Business\\Business.csproj": {
-                "projectPath": "D:\\CoreNewProjectCreate\\Business\\Business.csproj"
-              },
-              "D:\\CoreNewProjectCreate\\Entity\\Entity.csproj": {
-                "projectPath": "D:\\CoreNewProjectCreate\\Entity\\Entity.csproj"
+              "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\Entity\\Entity.csproj"
               }
             }
           }
@@ -268,14 +174,14 @@
         }
       }
     },
-    "D:\\CoreNewProjectCreate\\Entity\\Entity.csproj": {
+    "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CoreNewProjectCreate\\Entity\\Entity.csproj",
+        "projectUniqueName": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "D:\\CoreNewProjectCreate\\Entity\\Entity.csproj",
+        "projectPath": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\Entity\\Entity.csproj",
         "packagesPath": "C:\\Users\\welcome\\.nuget\\packages\\",
-        "outputPath": "D:\\CoreNewProjectCreate\\Entity\\obj\\",
+        "outputPath": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -314,6 +220,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.AspNetCore.Mvc.Core": {
               "target": "Package",
               "version": "[2.2.5, )"
@@ -363,14 +273,14 @@
         }
       }
     },
-    "D:\\CoreNewProjectCreate\\InfraStucture\\InfraStucture.csproj": {
+    "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\InfraStucture\\InfraStucture.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CoreNewProjectCreate\\InfraStucture\\InfraStucture.csproj",
+        "projectUniqueName": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\InfraStucture\\InfraStucture.csproj",
         "projectName": "InfraStucture",
-        "projectPath": "D:\\CoreNewProjectCreate\\InfraStucture\\InfraStucture.csproj",
+        "projectPath": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\InfraStucture\\InfraStucture.csproj",
         "packagesPath": "C:\\Users\\welcome\\.nuget\\packages\\",
-        "outputPath": "D:\\CoreNewProjectCreate\\InfraStucture\\obj\\",
+        "outputPath": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\InfraStucture\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -392,17 +302,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\CoreNewProjectCreate\\Business\\Business.csproj": {
-                "projectPath": "D:\\CoreNewProjectCreate\\Business\\Business.csproj"
+              "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\ClassDAL\\ClassDAL.csproj": {
+                "projectPath": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\ClassDAL\\ClassDAL.csproj"
               },
-              "D:\\CoreNewProjectCreate\\ClassDAL\\ClassDAL.csproj": {
-                "projectPath": "D:\\CoreNewProjectCreate\\ClassDAL\\ClassDAL.csproj"
+              "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\Data\\Data.csproj"
               },
-              "D:\\CoreNewProjectCreate\\Data\\Data.csproj": {
-                "projectPath": "D:\\CoreNewProjectCreate\\Data\\Data.csproj"
-              },
-              "D:\\CoreNewProjectCreate\\Entity\\Entity.csproj": {
-                "projectPath": "D:\\CoreNewProjectCreate\\Entity\\Entity.csproj"
+              "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\welcome\\Downloads\\CoreNewProjectCreate\\Entity\\Entity.csproj"
               }
             }
           }

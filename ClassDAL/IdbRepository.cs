@@ -1,15 +1,24 @@
-﻿using System.Data;
+﻿using Data;
+using Microsoft.EntityFrameworkCore;
+using System.Data;
 using System.Data.SqlClient;
 
 namespace ClassDAL
 {
     public class IdbRepository : dbRepository
     {
+        //private readonly string _connection;
+
+        //public IdbRepository(IDbConnection dbConnection)
+        //{
+        //    _connection = dbConnection.ConnectionString;
+        //}
         private readonly string _connection;
 
-        public IdbRepository(IDbConnection dbConnection)
+        public IdbRepository(UserMgMtContext context)
         {
-            _connection = dbConnection.ConnectionString;
+            // DbContext se connection string lena
+            _connection = context.Database.GetConnectionString();
         }
         public void Update(string commandText, CommandType commandType, IDbDataParameter[] parameters)
         {

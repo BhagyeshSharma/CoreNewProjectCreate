@@ -1,0 +1,11 @@
+C:\Users\welcome\Downloads\CoreNewProjectCreate\Bussiness\bin\Debug\net8.0\Bussiness.deps.json
+C:\Users\welcome\Downloads\CoreNewProjectCreate\Bussiness\bin\Debug\net8.0\Bussiness.dll
+C:\Users\welcome\Downloads\CoreNewProjectCreate\Bussiness\bin\Debug\net8.0\Bussiness.pdb
+C:\Users\welcome\Downloads\CoreNewProjectCreate\Bussiness\obj\Debug\net8.0\Bussiness.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\welcome\Downloads\CoreNewProjectCreate\Bussiness\obj\Debug\net8.0\Bussiness.AssemblyInfoInputs.cache
+C:\Users\welcome\Downloads\CoreNewProjectCreate\Bussiness\obj\Debug\net8.0\Bussiness.AssemblyInfo.cs
+C:\Users\welcome\Downloads\CoreNewProjectCreate\Bussiness\obj\Debug\net8.0\Bussiness.csproj.CoreCompileInputs.cache
+C:\Users\welcome\Downloads\CoreNewProjectCreate\Bussiness\obj\Debug\net8.0\Bussiness.dll
+C:\Users\welcome\Downloads\CoreNewProjectCreate\Bussiness\obj\Debug\net8.0\refint\Bussiness.dll
+C:\Users\welcome\Downloads\CoreNewProjectCreate\Bussiness\obj\Debug\net8.0\Bussiness.pdb
+C:\Users\welcome\Downloads\CoreNewProjectCreate\Bussiness\obj\Debug\net8.0\ref\Bussiness.dll

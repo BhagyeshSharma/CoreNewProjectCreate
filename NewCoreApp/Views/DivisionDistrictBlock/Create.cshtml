@@ -1,0 +1,118 @@
+﻿@model Entity.ViewModal.UploadViewModel
+<style>
+    .image-container {
+        display: inline-block;
+        overflow: hidden;
+        width: 200px; /* Default size */
+        height: 200px; /* Default size */
+        position: relative;
+        border: 1px solid #ccc;
+        margin-top: 10px;
+        border-radius: 4px;
+    }
+
+    .preview-image {
+        width: 100%;
+        height: 100%;
+        transition: transform 0.3s ease; /* Smooth zoom effect */
+    }
+
+    .image-container:hover .preview-image {
+        transform: scale(1.5); /* Zoom effect */
+    }
+</style>
+<form asp-action="Create" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="DivisionId">Select Division</label>
+        <select asp-for="DivisionId" asp-items="Model.Divisions" class="form-control" id="DivisionId">
+            <option value="">Select Division</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="DistrictId">Select District</label>
+        <select asp-for="DistrictId" asp-items="Model.Districts" class="form-control" id="DistrictId" disabled>
+            <option value="">Select District</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="BlockId">Select Block</label>
+        <select asp-for="BlockId" asp-items="Model.Blocks" class="form-control" id="BlockId" disabled>
+            <option value="">Select Block</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="UploadedFile">Upload File</label>
+        <input type="file" id="UploadedFile" name="UploadedFile" class="form-control" />
+        <div id="filePreview"></div>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+        // Cascade District dropdown based on Division selection
+        $('#DivisionId').change(function () {
+            var divisionId = $(this).val();
+            if (divisionId) {
+                $.get('/DivisionDistrictBlock/GetDistricts?divisionId=' + divisionId, function (data) {
+                    var districtDropdown = $('#DistrictId');
+                    districtDropdown.empty();
+                    districtDropdown.append('<option value="">Select District</option>');
+                    $.each(data, function (index, item) {
+                        districtDropdown.append('<option value="' + item.value + '">' + item.text + '</option>');
+                    });
+                    districtDropdown.prop('disabled', false); // Enable District dropdown
+                });
+
+                // Disable Block dropdown when Division changes
+                $('#BlockId').prop('disabled', true).empty();
+            } else {
+                $('#DistrictId').prop('disabled', true); // Disable District dropdown if no Division selected
+                $('#BlockId').prop('disabled', true); // Disable Block dropdown if no District selected
+            }
+        });
+
+        // Cascade Block dropdown based on District selection
+        $('#DistrictId').change(function () {
+            var districtId = $(this).val();
+            if (districtId) {
+                $.get('/DivisionDistrictBlock/GetBlocks?districtId=' + districtId, function (data) {
+                    var blockDropdown = $('#BlockId');
+                    blockDropdown.empty();
+                    blockDropdown.append('<option value="">Select Block</option>');
+                    $.each(data, function (index, item) {
+                        blockDropdown.append('<option value="' + item.value + '">' + item.text + '</option>');
+                    });
+                    blockDropdown.prop('disabled', false); // Enable Block dropdown
+                });
+            } else {
+                $('#BlockId').prop('disabled', true); // Disable Block dropdown if no District selected
+            }
+        });
+
+        // File preview
+        $('#UploadedFile').change(function (event) {
+            var file = event.target.files[0];
+            if (file) {
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    var filePreview = `
+                        <p>File Name: ${file.name}</p>
+                        <p>File Size: ${(file.size / 1024).toFixed(2)} KB</p>
+                        <p>Preview:</p>
+                        <div class="image-container">
+                            <img src="${e.target.result}" class="preview-image" />
+                        </div>`;
+                    $('#filePreview').html(filePreview);
+                };
+                reader.readAsDataURL(file);
+            }
+        });
+    </script>
+}

@@ -1,5 +1,7 @@
 ﻿using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+
 
 namespace NewCoreApp.Configurations
 {

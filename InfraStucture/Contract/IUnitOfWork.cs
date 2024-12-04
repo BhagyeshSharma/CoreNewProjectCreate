@@ -9,6 +9,7 @@ namespace InfraStucture.Contract
     public interface IUnitOfWork
     {
         IEmployeeRegRepository employeeRegRepository { get; }
+        IStudentRegRepository studentRegRepository { get; }
         Task CommitTransactionAsync();
     }
 }

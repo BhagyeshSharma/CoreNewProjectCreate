@@ -1,38 +1,124 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\welcome\\source\\repos\\NewCoreApp\\",
+  "WorkspaceRootPath": "C:\\Users\\Bhagyesh Sharma\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{769CDBC9-7240-4618-8210-31E504DCF782}|..\\Data\\Data.csproj|c:\\users\\welcome\\source\\repos\\data\\migrations\\20241019065531_statetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A8ED298-F904-439E-9731-3D90AF34CE83}|..\\Entity\\Entity.csproj|c:\\users\\bhagyesh sharma\\downloads\\corenewprojectcreate\\entity\\modal\\studentedu_details.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{769CDBC9-7240-4618-8210-31E504DCF782}|..\\Data\\Data.csproj|c:\\users\\welcome\\source\\repos\\data\\usermgmtcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A8ED298-F904-439E-9731-3D90AF34CE83}|..\\Entity\\Entity.csproj|c:\\users\\bhagyesh sharma\\downloads\\corenewprojectcreate\\entity\\modal\\studentdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A8ED298-F904-439E-9731-3D90AF34CE83}|..\\Entity\\Entity.csproj|c:\\users\\welcome\\source\\repos\\entity\\modal\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F7D8052E-5DA6-4170-A485-B8B2404225A3}|..\\InfraStucture\\InfraStucture.csproj|c:\\users\\bhagyesh sharma\\downloads\\corenewprojectcreate\\infrastucture\\repository\\studentregrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\welcome\\source\\repos\\Data\\Migrations\\20241019065413_stateTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.Shared.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7E32B32-5DE2-4F5B-8522-26DC2B4A0794}|NewCoreApp.csproj|c:\\users\\welcome\\source\\repos\\newcoreapp\\configurations\\dbcontextserviceinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7E32B32-5DE2-4F5B-8522-26DC2B4A0794}|NewCoreApp.csproj|solutionrelative:configurations\\dbcontextserviceinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A8ED298-F904-439E-9731-3D90AF34CE83}|..\\Entity\\Entity.csproj|c:\\users\\bhagyesh sharma\\downloads\\corenewprojectcreate\\entity\\modal\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7E32B32-5DE2-4F5B-8522-26DC2B4A0794}|NewCoreApp.csproj|c:\\users\\welcome\\source\\repos\\newcoreapp\\configurations\\addapplicationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4A8ED298-F904-439E-9731-3D90AF34CE83}|..\\Entity\\Entity.csproj|c:\\users\\bhagyesh sharma\\downloads\\corenewprojectcreate\\entity\\modal\\employeereg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8ED298-F904-439E-9731-3D90AF34CE83}|..\\Entity\\Entity.csproj|c:\\users\\bhagyesh sharma\\downloads\\corenewprojectcreate\\entity\\modal\\tbl_subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7D8052E-5DA6-4170-A485-B8B2404225A3}|..\\InfraStucture\\InfraStucture.csproj|c:\\users\\bhagyesh sharma\\downloads\\corenewprojectcreate\\infrastucture\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7D8052E-5DA6-4170-A485-B8B2404225A3}|..\\InfraStucture\\InfraStucture.csproj|c:\\users\\bhagyesh sharma\\downloads\\corenewprojectcreate\\infrastucture\\repository\\employeeregrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8ED298-F904-439E-9731-3D90AF34CE83}|..\\Entity\\Entity.csproj|c:\\users\\bhagyesh sharma\\downloads\\corenewprojectcreate\\entity\\viewmodal\\insertdatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7D8052E-5DA6-4170-A485-B8B2404225A3}|..\\InfraStucture\\InfraStucture.csproj|c:\\users\\bhagyesh sharma\\downloads\\corenewprojectcreate\\infrastucture\\contract\\iemployeeregrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E688CE8F-1A11-444A-BB49-3C196EA147A4}|..\\ClassDAL\\ClassDAL.csproj|c:\\users\\bhagyesh sharma\\downloads\\corenewprojectcreate\\classdal\\idbrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7D8052E-5DA6-4170-A485-B8B2404225A3}|..\\InfraStucture\\InfraStucture.csproj|c:\\users\\bhagyesh sharma\\downloads\\corenewprojectcreate\\infrastucture\\contract\\istudentregrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7D8052E-5DA6-4170-A485-B8B2404225A3}|..\\InfraStucture\\InfraStucture.csproj|c:\\users\\bhagyesh sharma\\downloads\\corenewprojectcreate\\infrastucture\\contract\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7E32B32-5DE2-4F5B-8522-26DC2B4A0794}|NewCoreApp.csproj|c:\\users\\bhagyesh sharma\\downloads\\corenewprojectcreate\\newcoreapp\\controllers\\studentregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7E32B32-5DE2-4F5B-8522-26DC2B4A0794}|NewCoreApp.csproj|solutionrelative:controllers\\studentregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7E32B32-5DE2-4F5B-8522-26DC2B4A0794}|NewCoreApp.csproj|c:\\users\\bhagyesh sharma\\downloads\\corenewprojectcreate\\newcoreapp\\controllers\\employeeregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7E32B32-5DE2-4F5B-8522-26DC2B4A0794}|NewCoreApp.csproj|solutionrelative:controllers\\employeeregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7E32B32-5DE2-4F5B-8522-26DC2B4A0794}|NewCoreApp.csproj|c:\\users\\bhagyesh sharma\\downloads\\corenewprojectcreate\\newcoreapp\\configurations\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7E32B32-5DE2-4F5B-8522-26DC2B4A0794}|NewCoreApp.csproj|solutionrelative:configurations\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7E32B32-5DE2-4F5B-8522-26DC2B4A0794}|NewCoreApp.csproj|c:\\users\\bhagyesh sharma\\downloads\\corenewprojectcreate\\newcoreapp\\configurations\\addapplicationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7E32B32-5DE2-4F5B-8522-26DC2B4A0794}|NewCoreApp.csproj|solutionrelative:configurations\\addapplicationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7E32B32-5DE2-4F5B-8522-26DC2B4A0794}|NewCoreApp.csproj|c:\\users\\welcome\\source\\repos\\newcoreapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C7E32B32-5DE2-4F5B-8522-26DC2B4A0794}|NewCoreApp.csproj|c:\\users\\bhagyesh sharma\\downloads\\corenewprojectcreate\\newcoreapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C7E32B32-5DE2-4F5B-8522-26DC2B4A0794}|NewCoreApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7E32B32-5DE2-4F5B-8522-26DC2B4A0794}|NewCoreApp.csproj|c:\\users\\bhagyesh sharma\\downloads\\corenewprojectcreate\\newcoreapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7E32B32-5DE2-4F5B-8522-26DC2B4A0794}|NewCoreApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7E32B32-5DE2-4F5B-8522-26DC2B4A0794}|NewCoreApp.csproj|c:\\users\\welcome\\source\\repos\\newcoreapp\\configurations\\iserviceinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7E32B32-5DE2-4F5B-8522-26DC2B4A0794}|NewCoreApp.csproj|solutionrelative:configurations\\iserviceinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.302\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.Shared.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7E32B32-5DE2-4F5B-8522-26DC2B4A0794}|NewCoreApp.csproj|c:\\users\\welcome\\source\\repos\\newcoreapp\\configurations\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7E32B32-5DE2-4F5B-8522-26DC2B4A0794}|NewCoreApp.csproj|solutionrelative:configurations\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7E32B32-5DE2-4F5B-8522-26DC2B4A0794}|NewCoreApp.csproj|c:\\users\\bhagyesh sharma\\downloads\\corenewprojectcreate\\newcoreapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7E32B32-5DE2-4F5B-8522-26DC2B4A0794}|NewCoreApp.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7E32B32-5DE2-4F5B-8522-26DC2B4A0794}|NewCoreApp.csproj|c:\\users\\bhagyesh sharma\\downloads\\corenewprojectcreate\\newcoreapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7E32B32-5DE2-4F5B-8522-26DC2B4A0794}|NewCoreApp.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7E32B32-5DE2-4F5B-8522-26DC2B4A0794}|NewCoreApp.csproj|c:\\users\\bhagyesh sharma\\downloads\\corenewprojectcreate\\newcoreapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7E32B32-5DE2-4F5B-8522-26DC2B4A0794}|NewCoreApp.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7E32B32-5DE2-4F5B-8522-26DC2B4A0794}|NewCoreApp.csproj|c:\\users\\bhagyesh sharma\\downloads\\corenewprojectcreate\\newcoreapp\\bundleconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C7E32B32-5DE2-4F5B-8522-26DC2B4A0794}|NewCoreApp.csproj|solutionrelative:bundleconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CoreNewProjectCreate\\InfraStucture\\Contract\\IEmployeeRegRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CoreNewProjectCreate\\Data\\UserMgMtContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CoreNewProjectCreate\\ClassDAL\\DependencyInjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CoreNewProjectCreate\\ClassDAL\\IdbRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CoreNewProjectCreate\\ClassDAL\\dbRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CoreNewProjectCreate\\InfraStucture\\Repository\\EmployeeRegRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CoreNewProjectCreate\\InfraStucture\\Repository\\UnitOfWork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CoreNewProjectCreate\\InfraStucture\\Contract\\IUnitOfWork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CoreNewProjectCreate\\Entity\\ViewModal\\EmployeeRegistrationVM.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CoreNewProjectCreate\\Entity\\Modal\\State.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CoreNewProjectCreate\\Entity\\Modal\\EmployeeReg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +128,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -61,85 +147,260 @@
               "Name": "ST:928770227:0:{81164725-9a96-4ece-a4cb-440d8fd285e5}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20241019065531_stateTable.cs",
-              "DocumentMoniker": "C:\\Users\\welcome\\source\\repos\\Data\\Migrations\\20241019065531_stateTable.cs",
-              "RelativeDocumentMoniker": "..\\Data\\Migrations\\20241019065531_stateTable.cs",
-              "ToolTip": "C:\\Users\\welcome\\source\\repos\\Data\\Migrations\\20241019065531_stateTable.cs",
-              "RelativeToolTip": "..\\Data\\Migrations\\20241019065531_stateTable.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T06:55:31.149Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "20241019065413_stateTable.cs",
-              "DocumentMoniker": "C:\\Users\\welcome\\source\\repos\\Data\\Migrations\\20241019065413_stateTable.cs",
-              "RelativeDocumentMoniker": "..\\Data\\Migrations\\20241019065413_stateTable.cs",
-              "ToolTip": "C:\\Users\\welcome\\source\\repos\\Data\\Migrations\\20241019065413_stateTable.cs",
-              "RelativeToolTip": "..\\Data\\Migrations\\20241019065413_stateTable.cs",
+              "Title": "Microsoft.NET.Sdk.DefaultItems.Shared.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.Shared.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.Shared.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.Shared.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.Shared.targets",
+              "ViewState": "AgIAALQAAAAAAAAAAAAnwL0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-11-03T16:39:43.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "State.cs",
+              "DocumentMoniker": "C:\\Users\\Bhagyesh Sharma\\Downloads\\CoreNewProjectCreate\\Entity\\Modal\\State.cs",
+              "RelativeDocumentMoniker": "..\\Entity\\Modal\\State.cs",
+              "ToolTip": "C:\\Users\\Bhagyesh Sharma\\Downloads\\CoreNewProjectCreate\\Entity\\Modal\\State.cs",
+              "RelativeToolTip": "..\\Entity\\Modal\\State.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T06:54:13.222Z"
+              "WhenOpened": "2024-11-03T16:36:07.597Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "State.cs",
-              "DocumentMoniker": "C:\\Users\\welcome\\source\\repos\\Entity\\Modal\\State.cs",
-              "RelativeDocumentMoniker": "..\\Entity\\Modal\\State.cs",
-              "ToolTip": "C:\\Users\\welcome\\source\\repos\\Entity\\Modal\\State.cs",
-              "RelativeToolTip": "..\\Entity\\Modal\\State.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "EmployeeReg.cs",
+              "DocumentMoniker": "C:\\Users\\Bhagyesh Sharma\\Downloads\\CoreNewProjectCreate\\Entity\\Modal\\EmployeeReg.cs",
+              "RelativeDocumentMoniker": "..\\Entity\\Modal\\EmployeeReg.cs",
+              "ToolTip": "C:\\Users\\Bhagyesh Sharma\\Downloads\\CoreNewProjectCreate\\Entity\\Modal\\EmployeeReg.cs",
+              "RelativeToolTip": "..\\Entity\\Modal\\EmployeeReg.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T06:52:35.188Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserMgMtContext.cs",
-              "DocumentMoniker": "C:\\Users\\welcome\\source\\repos\\Data\\UserMgMtContext.cs",
-              "RelativeDocumentMoniker": "..\\Data\\UserMgMtContext.cs",
-              "ToolTip": "C:\\Users\\welcome\\source\\repos\\Data\\UserMgMtContext.cs",
-              "RelativeToolTip": "..\\Data\\UserMgMtContext.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAowBEAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T06:51:24.514Z"
+              "WhenOpened": "2024-11-03T16:36:04.741Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\welcome\\source\\repos\\NewCoreApp\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\welcome\\source\\repos\\NewCoreApp\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
+              "Title": "tbl_Subject.cs",
+              "DocumentMoniker": "C:\\Users\\Bhagyesh Sharma\\Downloads\\CoreNewProjectCreate\\Entity\\Modal\\tbl_Subject.cs",
+              "RelativeDocumentMoniker": "..\\Entity\\Modal\\tbl_Subject.cs",
+              "ToolTip": "C:\\Users\\Bhagyesh Sharma\\Downloads\\CoreNewProjectCreate\\Entity\\Modal\\tbl_Subject.cs",
+              "RelativeToolTip": "..\\Entity\\Modal\\tbl_Subject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T06:50:08.761Z"
+              "WhenOpened": "2024-11-03T16:36:00.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentEdu_Details.cs",
+              "DocumentMoniker": "C:\\Users\\Bhagyesh Sharma\\Downloads\\CoreNewProjectCreate\\Entity\\Modal\\StudentEdu_Details.cs",
+              "RelativeDocumentMoniker": "..\\Entity\\Modal\\StudentEdu_Details.cs",
+              "ToolTip": "C:\\Users\\Bhagyesh Sharma\\Downloads\\CoreNewProjectCreate\\Entity\\Modal\\StudentEdu_Details.cs",
+              "RelativeToolTip": "..\\Entity\\Modal\\StudentEdu_Details.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T16:09:32.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentRegRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Bhagyesh Sharma\\Downloads\\CoreNewProjectCreate\\InfraStucture\\Repository\\StudentRegRepository.cs",
+              "RelativeDocumentMoniker": "..\\InfraStucture\\Repository\\StudentRegRepository.cs",
+              "ToolTip": "C:\\Users\\Bhagyesh Sharma\\Downloads\\CoreNewProjectCreate\\InfraStucture\\Repository\\StudentRegRepository.cs",
+              "RelativeToolTip": "..\\InfraStucture\\Repository\\StudentRegRepository.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwCEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T15:43:05.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentDetails.cs",
+              "DocumentMoniker": "C:\\Users\\Bhagyesh Sharma\\Downloads\\CoreNewProjectCreate\\Entity\\Modal\\StudentDetails.cs",
+              "RelativeDocumentMoniker": "..\\Entity\\Modal\\StudentDetails.cs",
+              "ToolTip": "C:\\Users\\Bhagyesh Sharma\\Downloads\\CoreNewProjectCreate\\Entity\\Modal\\StudentDetails.cs",
+              "RelativeToolTip": "..\\Entity\\Modal\\StudentDetails.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T16:12:02.391Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "IServiceInstaller.cs",
-              "DocumentMoniker": "C:\\Users\\welcome\\source\\repos\\NewCoreApp\\Configurations\\IServiceInstaller.cs",
-              "RelativeDocumentMoniker": "Configurations\\IServiceInstaller.cs",
-              "ToolTip": "C:\\Users\\welcome\\source\\repos\\NewCoreApp\\Configurations\\IServiceInstaller.cs",
-              "RelativeToolTip": "Configurations\\IServiceInstaller.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Bhagyesh Sharma\\Downloads\\CoreNewProjectCreate\\InfraStucture\\Repository\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "..\\InfraStucture\\Repository\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Bhagyesh Sharma\\Downloads\\CoreNewProjectCreate\\InfraStucture\\Repository\\UnitOfWork.cs",
+              "RelativeToolTip": "..\\InfraStucture\\Repository\\UnitOfWork.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T06:49:49.836Z"
+              "WhenOpened": "2024-11-03T16:23:30.863Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "EmployeeRegRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Bhagyesh Sharma\\Downloads\\CoreNewProjectCreate\\InfraStucture\\Repository\\EmployeeRegRepository.cs",
+              "RelativeDocumentMoniker": "..\\InfraStucture\\Repository\\EmployeeRegRepository.cs",
+              "ToolTip": "C:\\Users\\Bhagyesh Sharma\\Downloads\\CoreNewProjectCreate\\InfraStucture\\Repository\\EmployeeRegRepository.cs",
+              "RelativeToolTip": "..\\InfraStucture\\Repository\\EmployeeRegRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T15:43:21.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "InsertDataModel.cs",
+              "DocumentMoniker": "C:\\Users\\Bhagyesh Sharma\\Downloads\\CoreNewProjectCreate\\Entity\\ViewModal\\InsertDataModel.cs",
+              "RelativeDocumentMoniker": "..\\Entity\\ViewModal\\InsertDataModel.cs",
+              "ToolTip": "C:\\Users\\Bhagyesh Sharma\\Downloads\\CoreNewProjectCreate\\Entity\\ViewModal\\InsertDataModel.cs",
+              "RelativeToolTip": "..\\Entity\\ViewModal\\InsertDataModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T15:47:53.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IEmployeeRegRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Bhagyesh Sharma\\Downloads\\CoreNewProjectCreate\\InfraStucture\\Contract\\IEmployeeRegRepository.cs",
+              "RelativeDocumentMoniker": "..\\InfraStucture\\Contract\\IEmployeeRegRepository.cs",
+              "ToolTip": "C:\\Users\\Bhagyesh Sharma\\Downloads\\CoreNewProjectCreate\\InfraStucture\\Contract\\IEmployeeRegRepository.cs",
+              "RelativeToolTip": "..\\InfraStucture\\Contract\\IEmployeeRegRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T15:48:57.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IdbRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Bhagyesh Sharma\\Downloads\\CoreNewProjectCreate\\ClassDAL\\IdbRepository.cs",
+              "RelativeDocumentMoniker": "..\\ClassDAL\\IdbRepository.cs",
+              "ToolTip": "C:\\Users\\Bhagyesh Sharma\\Downloads\\CoreNewProjectCreate\\ClassDAL\\IdbRepository.cs",
+              "RelativeToolTip": "..\\ClassDAL\\IdbRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T16:02:20.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IStudentRegRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Bhagyesh Sharma\\Downloads\\CoreNewProjectCreate\\InfraStucture\\Contract\\IStudentRegRepository.cs",
+              "RelativeDocumentMoniker": "..\\InfraStucture\\Contract\\IStudentRegRepository.cs",
+              "ToolTip": "C:\\Users\\Bhagyesh Sharma\\Downloads\\CoreNewProjectCreate\\InfraStucture\\Contract\\IStudentRegRepository.cs",
+              "RelativeToolTip": "..\\InfraStucture\\Contract\\IStudentRegRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T15:40:48.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Bhagyesh Sharma\\Downloads\\CoreNewProjectCreate\\InfraStucture\\Contract\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "..\\InfraStucture\\Contract\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Bhagyesh Sharma\\Downloads\\CoreNewProjectCreate\\InfraStucture\\Contract\\IUnitOfWork.cs",
+              "RelativeToolTip": "..\\InfraStucture\\Contract\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T15:41:58.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EmployeeRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\Bhagyesh Sharma\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\Controllers\\EmployeeRegistration.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeeRegistration.cs",
+              "ToolTip": "C:\\Users\\Bhagyesh Sharma\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\Controllers\\EmployeeRegistration.cs",
+              "RelativeToolTip": "Controllers\\EmployeeRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T15:29:55.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "StudentRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\Bhagyesh Sharma\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\Controllers\\StudentRegistration.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentRegistration.cs",
+              "ToolTip": "C:\\Users\\Bhagyesh Sharma\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\Controllers\\StudentRegistration.cs",
+              "RelativeToolTip": "Controllers\\StudentRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T15:29:24.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Bhagyesh Sharma\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Bhagyesh Sharma\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T06:27:31.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Bhagyesh Sharma\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Bhagyesh Sharma\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-29T11:46:23.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AddApplicationServices.cs",
+              "DocumentMoniker": "C:\\Users\\Bhagyesh Sharma\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\Configurations\\AddApplicationServices.cs",
+              "RelativeDocumentMoniker": "Configurations\\AddApplicationServices.cs",
+              "ToolTip": "C:\\Users\\Bhagyesh Sharma\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\Configurations\\AddApplicationServices.cs",
+              "RelativeToolTip": "Configurations\\AddApplicationServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T06:49:45.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\welcome\\source\\repos\\NewCoreApp\\Configurations\\DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\Bhagyesh Sharma\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\Configurations\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "Configurations\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\welcome\\source\\repos\\NewCoreApp\\Configurations\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\Bhagyesh Sharma\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\Configurations\\DependencyInjection.cs",
               "RelativeToolTip": "Configurations\\DependencyInjection.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -147,27 +408,173 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DBContextServiceInstaller.cs",
-              "DocumentMoniker": "C:\\Users\\welcome\\source\\repos\\NewCoreApp\\Configurations\\DBContextServiceInstaller.cs",
-              "RelativeDocumentMoniker": "Configurations\\DBContextServiceInstaller.cs",
-              "ToolTip": "C:\\Users\\welcome\\source\\repos\\NewCoreApp\\Configurations\\DBContextServiceInstaller.cs",
-              "RelativeToolTip": "Configurations\\DBContextServiceInstaller.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T06:49:47.251Z"
+              "DocumentIndex": 23,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Bhagyesh Sharma\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Bhagyesh Sharma\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-30T06:51:04.517Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AddApplicationServices.cs",
-              "DocumentMoniker": "C:\\Users\\welcome\\source\\repos\\NewCoreApp\\Configurations\\AddApplicationServices.cs",
-              "RelativeDocumentMoniker": "Configurations\\AddApplicationServices.cs",
-              "ToolTip": "C:\\Users\\welcome\\source\\repos\\NewCoreApp\\Configurations\\AddApplicationServices.cs",
-              "RelativeToolTip": "Configurations\\AddApplicationServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 21,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Bhagyesh Sharma\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Bhagyesh Sharma\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-30T06:51:07.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Microsoft.NET.Sdk.DefaultItems.Shared.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.Shared.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.302\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.Shared.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.Shared.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.302\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.Shared.targets",
+              "ViewState": "AQIAALYAAAAAAAAAAAAmwL0AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-10-30T07:12:32.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UserMgMtContext.cs",
+              "DocumentMoniker": "D:\\CoreNewProjectCreate\\Data\\UserMgMtContext.cs",
+              "ToolTip": "D:\\CoreNewProjectCreate\\Data\\UserMgMtContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T06:49:45.829Z"
+              "WhenOpened": "2024-10-30T09:24:48.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IEmployeeRegRepository.cs",
+              "DocumentMoniker": "D:\\CoreNewProjectCreate\\InfraStucture\\Contract\\IEmployeeRegRepository.cs",
+              "ToolTip": "D:\\CoreNewProjectCreate\\InfraStucture\\Contract\\IEmployeeRegRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T09:26:24.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\CoreNewProjectCreate\\ClassDAL\\DependencyInjection.cs",
+              "ToolTip": "D:\\CoreNewProjectCreate\\ClassDAL\\DependencyInjection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T06:25:42.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IdbRepository.cs",
+              "DocumentMoniker": "D:\\CoreNewProjectCreate\\ClassDAL\\IdbRepository.cs",
+              "ToolTip": "D:\\CoreNewProjectCreate\\ClassDAL\\IdbRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T06:25:12.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "dbRepository.cs",
+              "DocumentMoniker": "D:\\CoreNewProjectCreate\\ClassDAL\\dbRepository.cs",
+              "ToolTip": "D:\\CoreNewProjectCreate\\ClassDAL\\dbRepository.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAA8wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T06:25:08.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "EmployeeRegRepository.cs",
+              "DocumentMoniker": "D:\\CoreNewProjectCreate\\InfraStucture\\Repository\\EmployeeRegRepository.cs",
+              "ToolTip": "D:\\CoreNewProjectCreate\\InfraStucture\\Repository\\EmployeeRegRepository.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABEAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T06:15:56.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "D:\\CoreNewProjectCreate\\InfraStucture\\Repository\\UnitOfWork.cs",
+              "ToolTip": "D:\\CoreNewProjectCreate\\InfraStucture\\Repository\\UnitOfWork.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T06:15:53.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "D:\\CoreNewProjectCreate\\InfraStucture\\Contract\\IUnitOfWork.cs",
+              "ToolTip": "D:\\CoreNewProjectCreate\\InfraStucture\\Contract\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T06:15:49.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "bundleconfig.json",
+              "DocumentMoniker": "C:\\Users\\Bhagyesh Sharma\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\bundleconfig.json",
+              "RelativeDocumentMoniker": "bundleconfig.json",
+              "ToolTip": "C:\\Users\\Bhagyesh Sharma\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\bundleconfig.json",
+              "RelativeToolTip": "bundleconfig.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-29T11:47:40.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Bhagyesh Sharma\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Bhagyesh Sharma\\Downloads\\CoreNewProjectCreate\\NewCoreApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T11:39:48.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "EmployeeRegistrationVM.cs",
+              "DocumentMoniker": "D:\\CoreNewProjectCreate\\Entity\\ViewModal\\EmployeeRegistrationVM.cs",
+              "ToolTip": "D:\\CoreNewProjectCreate\\Entity\\ViewModal\\EmployeeRegistrationVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T09:39:03.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "State.cs",
+              "DocumentMoniker": "D:\\CoreNewProjectCreate\\Entity\\Modal\\State.cs",
+              "ToolTip": "D:\\CoreNewProjectCreate\\Entity\\Modal\\State.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T09:25:37.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "EmployeeReg.cs",
+              "DocumentMoniker": "D:\\CoreNewProjectCreate\\Entity\\Modal\\EmployeeReg.cs",
+              "ToolTip": "D:\\CoreNewProjectCreate\\Entity\\Modal\\EmployeeReg.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T09:25:35.437Z"
             }
           ]
         }

@@ -12,18 +12,42 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">NewCoreApp</a>
+                <a class="navbar-brand" style="color:red" asp-area="" asp-controller="Home" asp-action="Index">NewCoreApp</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        <li class="nav-item bt" style="margin-left:4px";>
+                            <a class="btn btn-success" style="color:white" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        <li class="nav-item" style="margin-left:4px" ;>
+                            <a class="btn btn-success" style="color:white" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                        <li class="nav-item" style="margin-left:4px" ;>
+                            <a class="btn btn-success" style="color:white" asp-area="" asp-controller="EmployeeRegistration" asp-action="Create">Employee Registration</a>
+                        </li>
+                        <li class="nav-item" style="margin-left:4px" ;>
+                            <a class="btn btn-success" style="color:white" asp-area="" asp-controller="StudentRegistration" asp-action="Create">Student Registration</a>
+                        </li>
+                        <li class="nav-item" style="margin-left:4px" ;>
+                            <a class="btn btn-success" style="color:white" asp-area="" asp-controller="DivisionDistrictBlock" asp-action="Create">User Location Registration</a>
+                        </li>
+                        <li class="nav-item" style="margin-left:4px" ;>
+                            <a class="btn btn-success" style="color:white" asp-area="" asp-controller="DivisionDistrictBlock" asp-action="FileGrid">User Wise Location Details</a>
+                        </li>
+                        <li class="nav-item" style="margin-left:4px" ;>
+                            <a class="btn btn-success" style="color:white" asp-area="" asp-controller="Attendance" asp-action="Index">Student Daily Attendance Entry</a>
+                        </li>
+                        <li class="nav-item" style="margin-left:4px" ;>
+                            <a class="btn btn-success" style="color:white" asp-area="" asp-controller="StudentVerfication" asp-action="StudentVerification">Student Verification</a>
+                        </li>
+                        <li class="nav-item" style="margin-left:4px" ;>
+                            <a class="btn btn-success" style="color:white" asp-area="" asp-controller="LibraryBooks" asp-action="Librarybooks">Library Books Manage</a>
+                        </li>
+                        <li class="nav-item" style="margin-left:4px" ;>
+                            <a class="btn btn-success" style="color:white" asp-area="" asp-controller="UserForm" asp-action="Index">User Register</a>
                         </li>
                     </ul>
                 </div>

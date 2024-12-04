@@ -6,6 +6,7 @@
         <div class="form-row">
             <!-- Employee Name -->
             <div class="form-group col-md-6">
+                <input asp-for="EmployeeId" type="hidden" />
                 <label asp-for="EmployeeName"></label>
                 <input asp-for="EmployeeName" autocomplete="off" class="form-control" />
                 <span asp-validation-for="EmployeeName" class="text-danger"></span>
@@ -35,7 +36,10 @@
             </div>
         </div>
     </fieldset>
-    <button type="submit" class="btn btn-primary" id="submitButton">Submit</button>
+   @*  <button type="submit" class="btn btn-primary" id="submitButton">Submit</button> *@
+    <button type="submit" class="btn btn-primary" id="submitButton">
+        @(ViewBag.IsEditMode != null && (bool)ViewBag.IsEditMode ? "Update" : "Submit")
+    </button>
 </form>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -46,8 +50,11 @@
 
             var formData = new FormData($('#employeeForm')[0]);
 
+            // Determine URL based on edit mode
+            var actionUrl = '@(ViewBag.IsEditMode != null && (bool)ViewBag.IsEditMode ? Url.Action("Update", "EmployeeRegistration") : Url.Action("CreateEmployee", "EmployeeRegistration"))';
+
             $.ajax({
-                url: '@Url.Action("CreateEmployee", "EmployeeRegistration")',
+                url: actionUrl,
                 type: 'POST',
                 data: formData,
                 processData: false,
@@ -55,6 +62,8 @@
                 success: function (response) {
                     if (response.success) {
                         alert(response.message);
+                        // Optionally, redirect or refresh the list
+                        window.location.href = '@Url.Action("EmployeeList", "EmployeeRegistration")';
                     } else {
                         alert(response.message);
                     }
@@ -66,4 +75,5 @@
         });
     });
 </script>
+
 
