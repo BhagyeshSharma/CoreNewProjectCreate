@@ -1,0 +1,43 @@
+﻿@model IEnumerable<Entity.ViewModal.EmployeeRegistrationVM>
+
+<h2>Employee List</h2>
+
+<table class="table table-bordered">
+   <thead>
+    <tr>
+        <th>Sr. No.</th> <!-- Incremented ID for display only -->
+        <th>Employee ID</th>
+        <th>Employee Name</th>
+        <th>Employee Father's Name</th>
+        <th>State ID</th>
+        <th>State</th>
+        <th>File Path</th>
+        <th>Actions</th>
+    </tr>
+</thead>
+<tbody>
+    @{
+        var serialNumber = 1;
+    }
+    @foreach (var employee in Model)
+    {
+        <tr>
+            <td>@serialNumber</td> <!-- Display-only ID incremented manually -->
+            <td>@employee.EmployeeId</td>
+            <td>@employee.EmployeeName</td>
+            <td>@employee.EmpFatherName</td>
+            <td>@employee.StateId</td>
+            <td>@employee.StateName</td>
+            <td>@employee.varfile</td>
+            <td>
+                    <a asp-action="Edit" asp-route-id="@employee.EmployeeId" class="btn btn-primary">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@employee.EmployeeId" class="btn btn-danger">Delete</a>
+            </td>
+        </tr>
+        {
+            serialNumber++;
+        }
+    }
+</tbody>
+
+</table>

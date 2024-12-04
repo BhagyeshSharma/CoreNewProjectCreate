@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net8.0\ClassDAL.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net8.0\ClassDAL.GlobalUsings.g.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net8.0\ClassDAL.deps.json" />
+    <Content Include="obj\ClassDAL.csproj.nuget.dgspec.json" />
+    <Content Include="obj\Debug\net8.0\ClassDAL.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net8.0\ClassDAL.dll" />
+    <None Include="bin\Debug\net8.0\ClassDAL.pdb" />
+    <None Include="bin\Debug\net8.0\Data.dll" />
+    <None Include="bin\Debug\net8.0\Data.pdb" />
+    <None Include="bin\Debug\net8.0\Entity.dll" />
+    <None Include="bin\Debug\net8.0\Entity.pdb" />
+    <None Include="obj\ClassDAL.csproj.nuget.g.props" />
+    <None Include="obj\ClassDAL.csproj.nuget.g.targets" />
+    <None Include="obj\Debug\net8.0\ClassDAL.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net8.0\ClassDAL.assets.cache" />
+    <None Include="obj\Debug\net8.0\ClassDAL.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net8.0\ClassDAL.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net8.0\ClassDAL.csproj.Up2Date" />
+    <None Include="obj\Debug\net8.0\ClassDAL.dll" />
+    <None Include="obj\Debug\net8.0\ClassDAL.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net8.0\ClassDAL.pdb" />
+    <None Include="obj\Debug\net8.0\refint\ClassDAL.dll" />
+    <None Include="obj\Debug\net8.0\ref\ClassDAL.dll" />
+    <None Include="obj\project.nuget.cache" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Data\Data.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,10 @@
+C:\Users\welcome\Downloads\CoreNewProjectCreate\InfraStucture\obj\Release\net8.0\InfraStucture.csproj.AssemblyReference.cache
+C:\Users\welcome\Downloads\CoreNewProjectCreate\InfraStucture\obj\Release\net8.0\InfraStucture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\welcome\Downloads\CoreNewProjectCreate\InfraStucture\obj\Release\net8.0\InfraStucture.AssemblyInfoInputs.cache
+C:\Users\welcome\Downloads\CoreNewProjectCreate\InfraStucture\obj\Release\net8.0\InfraStucture.AssemblyInfo.cs
+C:\Users\welcome\Downloads\CoreNewProjectCreate\InfraStucture\obj\Release\net8.0\InfraStucture.csproj.CoreCompileInputs.cache
+D:\CoreNewProjectCreate\InfraStucture\obj\Release\net8.0\InfraStucture.csproj.AssemblyReference.cache
+D:\CoreNewProjectCreate\InfraStucture\obj\Release\net8.0\InfraStucture.GeneratedMSBuildEditorConfig.editorconfig
+D:\CoreNewProjectCreate\InfraStucture\obj\Release\net8.0\InfraStucture.AssemblyInfoInputs.cache
+D:\CoreNewProjectCreate\InfraStucture\obj\Release\net8.0\InfraStucture.AssemblyInfo.cs
+D:\CoreNewProjectCreate\InfraStucture\obj\Release\net8.0\InfraStucture.csproj.CoreCompileInputs.cache

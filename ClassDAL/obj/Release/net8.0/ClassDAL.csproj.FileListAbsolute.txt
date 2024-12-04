@@ -1,0 +1,5 @@
+D:\CoreNewProjectCreate\ClassDAL\obj\Release\net8.0\ClassDAL.csproj.AssemblyReference.cache
+D:\CoreNewProjectCreate\ClassDAL\obj\Release\net8.0\ClassDAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\CoreNewProjectCreate\ClassDAL\obj\Release\net8.0\ClassDAL.AssemblyInfoInputs.cache
+D:\CoreNewProjectCreate\ClassDAL\obj\Release\net8.0\ClassDAL.AssemblyInfo.cs
+D:\CoreNewProjectCreate\ClassDAL\obj\Release\net8.0\ClassDAL.csproj.CoreCompileInputs.cache

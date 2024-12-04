@@ -1,0 +1,69 @@
+﻿@model Entity.ViewModal.EmployeeRegistrationVM    
+
+<form id="employeeForm" method="post" asp-action="YourAction" enctype="multipart/form-data">
+    <fieldset>
+        <legend style="color:red;font-size:larger"><u>Employee Basic Information</u></legend>
+        <div class="form-row">
+            <!-- Employee Name -->
+            <div class="form-group col-md-6">
+                <label asp-for="EmployeeName"></label>
+                <input asp-for="EmployeeName" autocomplete="off" class="form-control" />
+                <span asp-validation-for="EmployeeName" class="text-danger"></span>
+            </div>
+
+            <!-- Father's Name -->
+            <div class="form-group col-md-6">
+                <label asp-for="EmpFatherName"></label>
+                <input asp-for="EmpFatherName" autocomplete="off" class="form-control" />
+                <span asp-validation-for="EmpFatherName" class="text-danger"></span>
+            </div>
+
+            <!-- State Dropdown -->
+            <div class="form-group col-md-6">
+                <label asp-for="StateId"></label>
+                <select asp-for="StateId" asp-items="@(new SelectList(ViewBag.stateDropdown, "Value", "Text"))" class="form-control">
+                    <option value="">Select State</option>
+                </select>
+                <span asp-validation-for="StateId" class="text-danger"></span>
+            </div>
+
+            <!-- Document Upload -->
+            <div class="form-group col-md-6">
+                <label asp-for="FileUpload"></label>
+                <input asp-for="FileUpload" type="file" class="form-control-file" />
+                <span asp-validation-for="FileUpload" class="text-danger"></span>
+            </div>
+        </div>
+    </fieldset>
+    <button type="submit" class="btn btn-primary" id="submitButton">Submit</button>
+</form>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#submitButton').click(function (e) {
+            e.preventDefault();
+
+            var formData = new FormData($('#employeeForm')[0]);
+
+            $.ajax({
+                url: '@Url.Action("CreateEmployee", "EmployeeRegistration")',
+                type: 'POST',
+                data: formData,
+                processData: false,
+                contentType: false,
+                success: function (response) {
+                    if (response.success) {
+                        alert(response.message);
+                    } else {
+                        alert(response.message);
+                    }
+                },
+                error: function (xhr, status, error) {
+                    alert("Error: " + xhr.responseText);
+                }
+            });
+        });
+    });
+</script>
+
