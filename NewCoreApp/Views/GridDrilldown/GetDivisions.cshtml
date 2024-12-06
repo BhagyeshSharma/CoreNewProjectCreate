@@ -1,0 +1,135 @@
+﻿@model List<Entity.Modal.tblDivision>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drilldown Report</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+    <div class="container mt-4">
+        <h2 class="text-center mb-4">Division Report</h2>
+
+        <!-- Division Grid -->
+        <div id="grid-container" class="card shadow-sm p-3 mb-4">
+            <table class="table table-striped table-bordered" id="data-table">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Initially show the Division data -->
+                    @foreach (var division in Model)
+                    {
+                        <tr>
+                            <td>@division.DivisionName</td>
+                            <td>
+                                <button class="btn btn-primary load-districts-btn" data-division-id="@division.DivisionId">View Districts</button>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Districts Container -->
+        <div id="districts-container" class="container" style="display: none;"></div>
+
+        <!-- Blocks Container -->
+        <div id="blocks-container" class="container" style="display: none;"></div>
+
+        <!-- Back Button -->
+        <div id="back-button-container" class="text-center mt-4" style="display: none;">
+            <button id="back-button" class="btn btn-secondary" onclick="goBack()">Back to Divisions</button>
+        </div>
+
+    </div>
+
+    <script>
+        // Back button functionality to go back to Divisions
+        function goBack() {
+            $('#districts-container').hide();
+            $('#blocks-container').hide();
+            $('#back-button-container').hide();
+            $('#data-table').show(); // Show Divisions grid again
+        }
+
+        $(document).ready(function () {
+            // Handle Division click to load Districts
+            $(document).on('click', '.load-districts-btn', function () {
+                var divisionId = $(this).data('division-id');
+                loadDistricts(divisionId);
+            });
+
+            // Function to load Districts
+            function loadDistricts(divisionId) {
+                $.ajax({
+                    url: '/GridDrilldown/GetDistricts?divisionId=' + divisionId,
+                    type: 'GET',
+                    success: function (data) {
+                        if (data.length > 0) {
+                            let html = '<div class="card shadow-sm p-3 mb-4"><table class="table table-striped table-bordered"><thead><tr><th>District Name</th><th>Action</th></tr></thead><tbody>';
+                            data.forEach(function (district) {
+                                html += `<tr>
+                                                <td>${district.DistrictName}</td>
+                                                <td><button class="btn btn-primary load-blocks-btn" data-district-id="${district.DistrictId}">View Blocks</button></td>
+                                            </tr>`;
+                            });
+                            html += '</tbody></table></div>';
+                            $('#districts-container').html(html); // Load Districts
+                            $('#districts-container').show();
+                            $('#data-table').hide(); // Hide Divisions grid
+                            $('#back-button-container').show(); // Show the Back button
+                        } else {
+                            $('#districts-container').html('<p>No districts available.</p>');
+                        }
+                    },
+                    error: function (xhr, status, error) {
+                        console.error('Error loading districts:', error);
+                        $('#error-message').text('Failed to load districts. Please try again.');
+                    }
+                });
+            }
+
+            // Handle District click to load Blocks
+            $(document).on('click', '.load-blocks-btn', function () {
+                var districtId = $(this).data('district-id');
+                loadBlocks(districtId);
+            });
+
+            // Function to load Blocks
+            function loadBlocks(districtId) {
+                $.ajax({
+                    url: '/GridDrilldown/GetBlocks?districtId=' + districtId,
+                    type: 'GET',
+                    success: function (data) {
+                        if (data.length > 0) {
+                            let html = '<div class="card shadow-sm p-3 mb-4"><table class="table table-striped table-bordered"><thead><tr><th>Block Name</th></tr></thead><tbody>';
+                            data.forEach(function (block) {
+                                html += `<tr><td>${block.BlockName}</td></tr>`;
+                            });
+                            html += '</tbody></table></div>';
+                            $('#blocks-container').html(html); // Load Blocks
+                            $('#blocks-container').show();
+                            $('#districts-container').hide(); // Hide Districts grid
+                        } else {
+                            $('#blocks-container').html('<p>No blocks available.</p>');
+                        }
+                    },
+                    error: function (xhr, status, error) {
+                        console.error('Error loading blocks:', error);
+                        $('#error-message').text('Failed to load blocks. Please try again.');
+                    }
+                });
+            }
+        });
+    </script>
+
+</body>
+</html>

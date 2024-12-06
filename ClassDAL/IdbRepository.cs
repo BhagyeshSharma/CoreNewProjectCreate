@@ -17,7 +17,7 @@ namespace ClassDAL
 
         public IdbRepository(UserMgMtContext context)
         {
-            // DbContext se connection string lena
+            // DbContext se connection string
             _connection = context.Database.GetConnectionString();
         }
         public void Update(string commandText, CommandType commandType, IDbDataParameter[] parameters)

@@ -1,0 +1,20 @@
+﻿@model IEnumerable<Entity.Modal.TblBlogPost>
+
+<h2>Blog Posts</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var post in Model)
+        {
+            <tr>
+                <td>@post.Title</td>
+                <td><a href="@Url.Action("ViewPost", "BlogPost", new { id = post.BlogPostId })">View Post</a></td>
+            </tr>
+        }
+    </tbody>
+</table>

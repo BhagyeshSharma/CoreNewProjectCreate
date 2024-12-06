@@ -1,0 +1,150 @@
+﻿@model Entity.ViewModal.BlogPostViewModel
+
+<!-- Blog Post Section -->
+<div class="blog-post">
+    <h2 class="blog-title">@Model.BlogPost.Title</h2>
+    <p class="blog-content">@Model.BlogPost.Content</p>
+</div>
+
+<!-- Comments Section -->
+<div class="comments-section">
+    <h3>Comments</h3>
+    <form method="post" asp-action="AddComment" asp-route-postId="@Model.BlogPost.BlogPostId">
+        <textarea name="content" required class="comment-textarea form-control" placeholder="Add your comment..."></textarea>
+        <button type="submit" class="submit-comment-btn">Add Comment</button>
+    </form>
+
+    <div class="comments-list">
+        @foreach (var comment in Model.Comments)
+        {
+            <div class="comment">
+                <p>@comment.Content</p>
+            </div>
+        }
+    </div>
+</div>
+
+<!-- Likes Section with Thumbs-Up Icon -->
+<div class="likes-section">
+    <h3>Likes: <span class="likes-count">@Model.Likes.Count</span></h3>
+    <form method="post" asp-action="LikePost" asp-route-postId="@Model.BlogPost.BlogPostId">
+        <button type="submit" class="like-btn">
+            <i class="fa fa-thumbs-up"></i> Like
+        </button>
+    </form>
+</div>
+
+<!-- Styles -->
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        padding: 20px;
+    }
+
+    .blog-post {
+        background-color: #fff;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .blog-title {
+        font-size: 24px;
+        color: #333;
+    }
+
+    .blog-content {
+        font-size: 16px;
+        color: #555;
+    }
+
+    .comments-section {
+        margin-top: 30px;
+    }
+
+    .comment-textarea {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+        margin-bottom: 10px;
+        font-size: 14px;
+        resize: vertical;
+    }
+
+    .submit-comment-btn {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+        .submit-comment-btn:hover {
+            background-color: #0056b3;
+        }
+
+    .comments-list {
+        margin-top: 20px;
+    }
+
+    .comment {
+        background-color: #f9f9f9;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+
+    .likes-section {
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .likes-count {
+        font-weight: bold;
+        color: #007bff;
+    }
+
+    .like-btn {
+        background-color: #28a745;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 50px;
+        border: none;
+        font-size: 16px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+        .like-btn i {
+            font-size: 18px;
+        }
+
+        .like-btn:hover {
+            background-color: #218838;
+        }
+
+        .like-btn:focus {
+            outline: none;
+        }
+
+        /* 3D Effect for the Thumbs-Up Icon */
+        .like-btn i {
+            transition: transform 0.2s;
+        }
+
+        .like-btn:hover i {
+            transform: scale(1.2);
+        }
+</style>
+
+<!-- Font Awesome CDN for Thumbs-Up Icon -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">

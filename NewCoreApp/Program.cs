@@ -15,7 +15,9 @@ builder.Services.AddScoped<IUnitOfWork, UnitOfWork>(); // Replace UnitOfWork wit
 builder.Services.AddScoped<dbRepository, IdbRepository>();
 builder.Services.AddDbContext<UserMgMtContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("UserManagementDb")));
-
+// Configure services for the second DbContext
+builder.Services.AddDbContext<SchoolEducationDBContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("SecondConnection")));
 builder.Services.AddScoped<IdbRepository>();
 builder.Services.AddControllers().AddJsonOptions(options =>
 {

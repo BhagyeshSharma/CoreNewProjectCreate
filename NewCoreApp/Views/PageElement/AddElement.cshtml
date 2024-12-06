@@ -1,0 +1,62 @@
+﻿@{
+    ViewData["Title"] = "Add Element";
+}
+
+
+<h2>Add Element</h2>
+
+<form asp-action="AddElement" method="post">
+    <input type="hidden" name="pageId" value="@ViewBag.PageId" />
+    <div class="form-group">
+        <label for="elementType">Select Element Type</label>
+        <select id="elementType" name="elementType" class="form-control">
+            <option value="Dropdown">Dropdown</option>
+            <option value="RadioButton">Radio Button</option>
+            <option value="Checkbox">Checkbox</option>
+            <option value="Textbox">Textbox</option>
+        </select>
+    </div>
+
+    <div id="elementOptions">
+        <div class="form-group">
+            <label for="Option1">Option (for Dropdown, Radio, Checkbox)</label>
+            <input type="text" name="options[]" class="form-control" />
+        </div>
+    </div>
+
+    <div id="textboxPlaceholder" style="display: none;">
+        <div class="form-group">
+            <label for="textboxPlaceholderValue">Textbox Placeholder</label>
+            <input type="text" name="options" class="form-control" placeholder="Enter placeholder text for textbox" />
+        </div>
+    </div>
+
+    <button type="button" class="btn btn-secondary" onclick="addOption()">Add Option</button>
+    <button type="submit" class="btn btn-primary">Save Element</button>
+</form>
+
+
+<script>
+    function toggleElementOptions() {
+        var elementType = document.getElementById('elementType').value;
+
+        if (elementType === 'Textbox') {
+            // Show the textbox placeholder input and hide options for Dropdown, Radio, Checkbox
+            document.getElementById('textboxPlaceholder').style.display = 'block';
+            document.getElementById('elementOptions').style.display = 'none';
+        } else {
+            // Show options input for Dropdown, Radio, Checkbox
+            document.getElementById('textboxPlaceholder').style.display = 'none';
+            document.getElementById('elementOptions').style.display = 'block';
+        }
+    }
+    function addOption() {
+        var container = document.getElementById('elementOptions');
+        var inputField = document.createElement('div');
+        inputField.classList.add('form-group');
+        inputField.innerHTML = '<label>Option (for Dropdown, Radio, Checkbox)</label><input type="text" name="options[]" class="form-control" />';
+        container.appendChild(inputField);
+    }
+    // Initialize the form to show correct options based on selected element type
+    window.onload = toggleElementOptions;
+</script>

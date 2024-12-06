@@ -17,12 +17,12 @@ namespace NewCoreApp.Controllers
         private readonly IUnitOfWork _unitOfWork;
         private readonly dbRepository _dboperations;
         private readonly IWebHostEnvironment _environment;
-        public UserFormController(UserMgMtContext context, IUnitOfWork unitOfWork, dbRepository dbRepository, IWebHostEnvironment environment)
+        public UserFormController(UserMgMtContext context, IUnitOfWork unitOfWork, dbRepository dbRepository, IWebHostEnvironment environment, SchoolEducationDBContext sEDContext)
         {
             _context = context;
             _unitOfWork = unitOfWork;
             _dboperations = dbRepository;
-            _environment = environment; 
+            _environment = environment;
         }
         public IActionResult Index()
         {
@@ -87,11 +87,9 @@ namespace NewCoreApp.Controllers
         }
         private void SendRegistrationEmailWithInlineImage(Entity.Modal.Tbl_User user)
         {
-            var fromAddress = new MailAddress("admin@sfatechnologies.com", "Your App Name");
+            var fromAddress = new MailAddress("admin@sfatechnologies.com", "New Core Application");
             var toAddress = new MailAddress(user.UserEmail, user.UserName);
-
             const string subject = "Registration Successful - Welcome to Our Platform!";
-
             // HTML content for the email
             string body = $@"
     <html>
@@ -137,16 +135,13 @@ namespace NewCoreApp.Controllers
         <div class='email-footer'>Thank you for choosing us!</div>
     </body>
     </html>";
-
             var smtp = new SmtpClient("mail.smtp2go.com", 587)
             {
                 Credentials = new NetworkCredential("admin@sfatechnologies.com", "c7adBEvpYKPMo6qj"),
                 EnableSsl = true
             };
-
             // Absolute path to the image
             var imagePath = Path.Combine(_environment.WebRootPath, "uploaduserfiles", "iwtxaj9d_400x400-removebg-preview.png");
-
             // Send email with inline image
             using (var message = new MailMessage(fromAddress, toAddress)
             {
@@ -161,12 +156,9 @@ namespace NewCoreApp.Controllers
                     ContentId = "myImage", // This ID will be used in the HTML body
                     TransferEncoding = TransferEncoding.Base64
                 };
-
                 var htmlView = AlternateView.CreateAlternateViewFromString(body, null, "text/html");
                 htmlView.LinkedResources.Add(inlineImage);
-
                 message.AlternateViews.Add(htmlView);
-
                 try
                 {
                     smtp.Send(message);
@@ -177,7 +169,6 @@ namespace NewCoreApp.Controllers
                 }
             }
         }
-
         [HttpPost]
         public IActionResult Edit(int id)
         {

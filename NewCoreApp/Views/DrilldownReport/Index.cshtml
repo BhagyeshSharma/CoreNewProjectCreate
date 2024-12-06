@@ -1,0 +1,114 @@
+﻿@model List<Entity.Modal.Tbl_Department>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drill-Down Report</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            background-color: #ffffff;
+            margin: 10px 0;
+            padding: 10px 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        li:hover {
+            background-color: #f1f1f1;
+            border-color: #ccc;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #0056b3;
+        }
+
+        div {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Departments</h2>
+    <ul id="department-list">
+        @foreach (var department in Model)
+        {
+            <li>
+                <a href="javascript:void(0);" onclick="loadTeams(@department.DepartmentID)">
+                    @department.DepartmentName
+                </a>
+                <div id="teams-@department.DepartmentID"></div>
+            </li>
+        }
+    </ul>
+
+    <script>
+        function loadTeams(departmentId) {
+            $.ajax({
+                url: '/DrilldownReport/GetTeams?departmentId=' + departmentId,
+                type: 'GET',
+                success: function (data) {
+                    console.log(data); 
+                    var teamsHtml = '<ul>';
+                    data.forEach(function (team) {
+                        teamsHtml += '<li><a href="javascript:void(0);" onclick="loadEmployees(' + team.id + ')">' + team.name + '</a><div id="employees-' + team.id + '"></div></li>';
+                    });
+                    teamsHtml += '</ul>';
+                    $('#teams-' + departmentId).html(teamsHtml);
+                },
+                error: function (xhr, status, error) {
+                    console.error('Error:', error);
+                }
+            });
+        }
+
+        function loadEmployees(teamId) {
+            $.ajax({
+                url: '/DrilldownReport/GetEmployees?teamId=' + teamId,
+                type: 'GET',
+                success: function (data) {
+                    console.log(data); 
+                    var employeesHtml = '<ul>';
+                    data.forEach(function (employee) {
+                        employeesHtml += '<li>' + employee.name + '</li>';
+                    });
+                    employeesHtml += '</ul>';
+                    $('#employees-' + teamId).html(employeesHtml);
+                },
+                error: function (xhr, status, error) {
+                    console.error('Error:', error); 
+                }
+            });
+        }
+    </script>
+
+</body>
+</html>

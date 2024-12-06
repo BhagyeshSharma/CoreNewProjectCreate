@@ -1,0 +1,44 @@
+﻿@foreach (var element in Model)
+{
+    <div class="mb-3">
+        <h4>@element.ElementType</h4>
+
+        @if (element.ElementType == "Dropdown")
+        {
+            var options = Newtonsoft.Json.JsonConvert.DeserializeObject<string[]>(element.Content);
+            <select class="form-control">
+                @foreach (var option in options)
+                {
+                    <option>@option</option>
+                }
+            </select>
+        }
+        else if (element.ElementType == "RadioButton")
+        {
+            var options = Newtonsoft.Json.JsonConvert.DeserializeObject<string[]>(element.Content);
+            @foreach (var option in options)
+            {
+                <div>
+                    <input type="radio" name="radioGroup" value="@option" />
+                    <label>@option</label>
+                </div>
+            }
+        }
+        else if (element.ElementType == "Checkbox")
+        {
+            var options = Newtonsoft.Json.JsonConvert.DeserializeObject<string[]>(element.Content);
+            @foreach (var option in options)
+            {
+                <div>
+                    <input type="checkbox" name="checkboxGroup" value="@option" />
+                    <label>@option</label>
+                </div>
+            }
+        }
+        else if (element.ElementType == "Textbox")
+        {
+            <input type="text" class="form-control" placeholder="@element.Content" />
+        }
+    </div>
+}
+
